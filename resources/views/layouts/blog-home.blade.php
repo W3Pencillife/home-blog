@@ -30,24 +30,88 @@
 <div class="container py-3">
     <div class="row g-12">
             <!-- First column start -->
-        <div class="col-md-7 text-white">
-            <div class="card">
-                <img src="{{ asset('images/home.png') }}" alt="Home Blog Image" class="img-fluid">
+            <div class="col-md-8 text-white">
+                <div class="card">
+                    <img src="{{ asset('images/home.png') }}" alt="Home Blog Image" class="img-fluid">
 
-                <div class="card-body">
-                    <p class="fs-12">July 14, 2025</p>
-                    <h5 class="card-title fs-2">Featured Post Title</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. 
-                        Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!
-                    </p>
+                    <div class="card-body">
+                        <p class="fs-12">July 14, 2025</p>
+                        <h5 class="card-title fs-2">Featured Post Title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. 
+                            Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!
+                        </p>
+                        <a href="#" class="btn btn-primary">Read More →</a>
+                    </div>
                 </div>
+                
+                <!-- Four Card System start -->
+                <div class="row g-12 py-4">
+                    <div class="col-md-6 text-white">
+                        <div class="card">
+                            <img src="{{ asset('images/home.png') }}" alt="Home Blog Image" class="img-fluid">
+
+                            <div class="card-body">
+                                <p class="fs-12 mb-1">July 14, 2025</p>
+                                <h5 class="card-title fs-2 mb-2">Post Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Reiciendis aliquid atque, nulla.
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-white">
+                        <div class="card">
+                            <img src="{{ asset('images/home.png') }}" alt="Home Blog Image" class="img-fluid">
+
+                            <div class="card-body">
+                                <p class="fs-12 mb-1">July 14, 2025</p>
+                                <h5 class="card-title fs-2 mb-2">Post Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Reiciendis aliquid atque, nulla.
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-12">
+                    <div class="col-md-6 text-white">
+                        <div class="card">
+                            <img src="{{ asset('images/home.png') }}" alt="Home Blog Image" class="img-fluid">
+
+                            <div class="card-body">
+                                <p class="fs-12 mb-1">July 14, 2025</p>
+                                <h5 class="card-title fs-2 mb-2">Post Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Reiciendis aliquid atque, nulla.
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-white">
+                        <div class="card">
+                            <img src="{{ asset('images/home.png') }}" alt="Home Blog Image" class="img-fluid">
+
+                            <div class="card-body">
+                                <p class="fs-12 mb-1">July 14, 2025</p>
+                                <h5 class="card-title fs-2 mb-2">Post Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Reiciendis aliquid atque, nulla.
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Four Card System end-->
             </div>
-        </div>
             <!--   First column end-->
 
             <!-- Second column -->
-        <div class="col-md-4 bg-secondary text-white ms-md-5">
+        <div class="col-md-4 bg-secondary text-white">
             Second Column (col-md-2)
         </div>
             <!-- Second column end-->
