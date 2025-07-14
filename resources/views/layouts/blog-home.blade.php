@@ -22,7 +22,7 @@
      <p class="fw-light fs-5 mt-1">A Bootstrap 5 starter layout for your next blog homepage</p>
     </div>
     <div class="text-success">
-    <hr>
+        <hr>
     </div>
 </div>
 
@@ -107,12 +107,78 @@
                     </div>
                 </div>
                 <!-- Four Card System end-->
+                <div class="text-success">
+                    <hr>
+                </div>
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                        <a class="page-link">Newer</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" aria-current="page">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#">15</a></li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">Older</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
             <!--   First column end-->
 
+
             <!-- Second column -->
-        <div class="col-md-4 bg-secondary text-white">
-            Second Column (col-md-2)
+        <div class="col-md-4 text-white">
+            <div class="col-12 mb-2 ms-2 me-0">
+                <div class="card">
+                    <div class="card-header">
+                        Search
+                    </div>
+                    <div class="card-body">
+                        <form class="d-flex" role="search">
+                            <input class="form-control" type="search" placeholder="Enter search term..." aria-label="Search"/>
+                            <button class="btn btn-primary" type="submit">Go!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-2 ms-2 me-0 py-3">
+                <div class="card">
+                    <div class="card-header">
+                        Categories
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-12">
+                            <div class="col-6">
+                                <p class="mb-1"><a class="web-design-hover" href="#">Web Design</a></p>
+                                <p class="mb-1"><a class="html-hover" href="#">HTML</a></p>
+                                <p class="mb-0"><a class="freebies-hover" href="#">Freebies</a></p>
+                            </div>
+                            <div class="col-6">
+                                <p class="mb-1"><a class="javaScript-hover" href="#">JavaScript</a></p>
+                                <p class="mb-1"><a class="css-hover" href="#">CSS</a></p>
+                                <p class="mb-0"><a class="tutorials-hover" href="#">Tutorials</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-2 ms-2 me-0 py-1">
+                <div class="card">
+                    <div class="card-header">
+                        Side Widget
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">You can put anything you want inside of these side widgets. 
+                            They are easy to use, and feature the Bootstrap 5 card component!</p>
+                    </div>
+                </div>
+            </div>
         </div>
             <!-- Second column end-->
     </div>
